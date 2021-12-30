@@ -14,19 +14,22 @@ A Python module built in Python 3.9
 ## How to install
 
 **USE VIRTUAL ENVIRONMENTS FOR DEVELOPMENT**
+<details>
+  <summary>Development set-up</summary>
+  
+  1. ensure virtualenv is installed with
+  `pip install --user virtualenv`
 
-1. ensure virtualenv is installed with
-`pip install --user virtualenv`
+  2. Create virtual environment with
+  `virtualenv venv`
 
-2. Create virtual environment with
-`virtualenv venv`
+  3. Enter virtual environment using the script. i.e. (for windows):
+  `./venv/scripts/activate.ps1`
 
-3. Enter virtual environment using the script. i.e. (for windows):
-`./venv/scripts/activate.ps1`
-
-4. Install package in virtualized environment with
-`pip install .`
-
+  4. Install package in virtualized environment with
+  `pip install .`
+  
+</details>
 
 **If you want to use it as final user just do**
 ```sh

@@ -28,6 +28,7 @@ setup(
     install_requires=[
         "pandas",
         "yfinance",
+        "pandas_ta",
     ],
 
     entry_points={
